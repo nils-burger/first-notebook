@@ -1,0 +1,13 @@
+output_dir: "."
+name: "Learning RMarkdown"
+navbar:
+  title: "Learning RMarkdown"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Example"
+      href: example.html
+    - text: "With R code"
+      href: RNotebookExample.html
+    - text: "About"
+      href: about.html

@@ -1,0 +1,131 @@
+---
+output_dir: "."
+title: "My first notebook"
+author: "Nils Burger"
+date: 11 December 2020
+bibliography: references.bib
+link-citations: yes
+output:
+  html_document:
+    toc: true
+    toc_depth: 4
+    toc_float: true
+    
+---
+<!-- This is a coment -->
+<!-- This are the headings -->
+# Heading 1 {#heading1}
+
+## Heading 2
+
+### Heading 3
+
+#### Heading 4
+\
+<!-- In line Text formatting -->
+
+# In line Text formatting
+
+To make text bold use **double asteriks** or __double underscore__
+
+To make text italic use *asteriks* and similarly _one underscore_
+
+To make text superscript use ^caret^
+
+To make text subscript use ~tilde~
+
+To mark text as inline code use `backticks`
+
+To make text strikethrough use ~~double tilde~~
+\
+  \
+  \
+
+# Line breaks
+
+  two spaces
+\
+\
+backslash followed by new line
+
+
+# Links
+Link to a webpage [Link to shared document](https://ac812.github.io/reproducibility-training/rmarkdown.html)
+Link to headings [headin1](#heading1)
+Link to test [test](https://ushers.bio.cam.ac.uk/rstudio3/files/my-firstrmrakdown/_site/example.html)
+Link to test [test](example.html)
+
+# Footnotes
+
+To indicate a footnote use[^1] and second footnote [^2]
+
+[^1]: This is the first footnote
+
+[^2]: This is the secodn footnote
+
+# References
+
+# Lists
+
+Ordered lists:
+
+1. Item1
+2. Item2
+3. Item3
+    a. Iem 3a after 4 spaces for indentation
+        i. Item 3a1 with another 4 indentations
+        
+        
+Unordered lists (*, +,-):
+
+
+* Item 1
+* Item 2
+    * Item 2.1
+* Item 3
+
+Task list:
+
+- [ ] an uncheck item
+
+- [x] checked item
+
+# Inserting Figures
+
+
+![Image caption - R logo](img/Rlogo.svg)
+# Tables
+
+| Column 1    | Column 2    |
+| ----------- | ----------- |
+| Item 1,1    | Item 1,2    |
+| Item 2,1    | Item 2,2    |
+
+
+
+| Column 1    | Column 2    |
+| --: | --: |
+| Item 1,1    | Item 1,2    |
+| Item 2,1    | Item 2,2    |
+
+# Blocks
+
+>Example of a block\
+>some text
+
+```
+print("Hello world")
+x <- 1+2
+print(x)
+```
+
+# References example
+
+
+Text ref @cardona2019
+
+# References
+
+
+
+
